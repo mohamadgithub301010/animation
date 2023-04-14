@@ -1,0 +1,269 @@
+/* .div1{
+    width:250px;
+    height:180px;
+    background-color: red;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 3s;
+}
+
+@keyframes change{
+    from{
+         background-color: blue;
+    }
+    to{
+        background-color: yellow;
+        width:700px;
+    }
+    0%{
+        background-color: blue;
+        left:0;
+    }
+    25%{
+        background-color: rgb(0, 0, 0);
+     }
+    50%{
+       background-color: yellow;
+       width:500px;
+        height:500px;
+        left:700px;
+        border-radius: 50%;
+    }
+    75%{
+        background-color: rgb(255, 0, 242);
+        width:700px;
+     }
+    100%{
+        background-color: rgb(30, 255, 0);
+        width:700px;
+        height:700px;
+        left:0;
+    }
+}
+.div2{
+    width:250px;
+    height:180px;
+    background-color: red;
+    position: absolute;
+    margin-top: 200px;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 3;
+    animation-play-state:  paused ;
+    animation-timing-function: linear;
+    animation-timing-function: ease;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-fill-mode: backwards ;
+    animation-fill-mode: both;
+    animation-direction:alternate ;
+    animation-direction: alternate-reverse;
+    animation: change 2s linear 3s infinite reverse forwards running;
+}
+
+@keyframes change{
+    from{
+         background-color: blue;
+    }
+    to{
+        background-color: yellow;
+        width:700px;
+    }
+    0%{
+        background-color: blue;
+        left:0;
+    }
+    25%{
+        background-color: rgb(0, 0, 0);
+     }
+    50%{
+       background-color: yellow;
+       width:500px;
+        height:500px;
+        left:700px;
+        border-radius: 50%;
+    }
+    75%{
+        background-color: rgb(255, 0, 242);
+        width:700px;
+     }
+    100%{
+        background-color: rgb(30, 255, 0);
+        width:700px;
+        height:700px;
+        left:0;
+    }
+}
+ */
+
+/*/////////////////////////////////////////*/
+
+.div1{
+    width:250px;
+    height:180px;
+    background-color: red;
+    position: absolute;
+    animation-name: cha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    /* background-image: url( ../images/R.jpeg); */
+    
+}
+@keyframes cha{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 75%;
+    }
+}
+/*////*/
+.div2{
+    width:250px;
+    height:180px;
+    margin-top: 200px;
+    background-color: red;
+    position: absolute;
+    animation-name: cha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-direction: alternate-reverse;
+}
+@keyframes cha{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 75%;
+    }
+}
+.div3{
+    width:250px;
+    height:180px;
+    margin-top: 400px;
+    background-color: red;
+    position: absolute;
+    animation-name: cha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+@keyframes cha{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 75%;
+    }
+}
+/*////*/
+.div4{
+    width:250px;
+    height:180px;
+    margin-top: 600px;
+    background-color: red;
+    position: absolute;
+    animation-name: cha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 9s;
+    animation-direction: alternate-reverse;
+}
+@keyframes cha{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 75%;
+    }
+}
+.div5{
+    width:250px;
+    height:180px;
+    margin-top: 800px;
+    background-color: red;
+    position: absolute;
+    animation-name: cha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+}
+@keyframes cha{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 75%;
+    }
+}
+/*////*/
+.div6{
+    width:250px;
+    height:180px;
+    margin-top: 1000px;
+    background-color: red;
+    position: absolute;
+    animation-name: cha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 15s;
+    animation-direction: alternate-reverse;
+}
+@keyframes cha{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 75%;
+    }
+}
+.div7{
+    width:250px;
+    height:180px;
+    margin-top: 1200px;
+    background-color: red;
+    position: absolute;
+    animation-name: cha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+}
+@keyframes cha{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 75%;
+    }
+}
+/*////*/
+.div8{
+    width:250px;
+    height:180px;
+    margin-top: 1400px;
+    background-color: red;
+    position: absolute;
+    animation-name: cha;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 21s;
+    animation-direction: alternate-reverse;
+}
+@keyframes cha{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 75%;
+    }
+}
+
